@@ -1,0 +1,3 @@
+0 Blight
+1 Common_Rust
+2 Healthy,
