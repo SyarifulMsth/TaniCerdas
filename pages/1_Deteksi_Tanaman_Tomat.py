@@ -17,7 +17,7 @@ model = load_model('./models/models_tomat.h5')
 
 # load class names
 with open('./models/labels_tomat.txt', 'r') as f:
-    class_names = [a[:-1].split(' ')[1] for a in f.readlines()]
+    class_names = [a[:-1].split('_')[1] for a in f.readlines()]
     f.close()
 
 print(class_names)
@@ -32,8 +32,9 @@ if uploaded_file is not None:
     class_name, conf_score = classify(image, model, class_names)
 
     # write classification
-    st.write("### Class : {}".format(class_name))
-    st.write("### Accuracy : {}".format(conf_score))
+    st.write("##### Jenis penyakit : {}".format(class_name))
+    st.write("###### Akurasi prediksi : {:.2%}".format(conf_score))  # Format confidence score as a percentage
+
     # st.write("## {}".format(class_name))
     # st.write("### Score : {}".format(conf_score))
 

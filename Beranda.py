@@ -1,9 +1,9 @@
 import streamlit as st
 
 st.title('TaniCerdas🌱')
-st.markdown('**TaniCerdas** adalah sebuah aplikasi yang berbasis *Artificial Intelligence* dengan *platform* web yang hadir untuk membantu memecahkan permasalahan di bidang pertanian. Aplikasi ini dibangun menggunakan arsitektur DenseNet1212 *transfer learning* *Convolutional Neural Network* (CNN) dengan Tensorflow.')
+st.markdown('**TaniCerdas** adalah sebuah aplikasi yang dibangun untuk memecahkan permasalahan di bidang pertanian. TaniCerdas dibangun bagi para anak muda yang ingin menjadi petani di Indonesia untuk mendeteksi penyakit pada tanaman pertanian. Tersedia juga fitur informasi penyakit yang dapat menambah pengetahuan tentang bagaimana gejala dan cara pengendalian penyakit pada tanaman pertanian. \n\n**TaniCerdas**: Petani Muda Inspiratif, Hasil Produktif!')
 
-st.subheader('Fitur')
+st.subheader('Fitur Aplikasi')
 
 columnLeft, columnRight = st.columns(2)
 
@@ -71,17 +71,17 @@ st.markdown(galery(),unsafe_allow_html=True)
 
 st.divider()
 st.subheader("Tanaman Tomat")
-st.markdown("""Terdapat 3 *class* pada tanaman tomat, di antaranya yaitu *Early Blight*, *Late Blight*, dan *Healthy*. Berikut adalah sampel dari dataset yang digunakan dalam membuat model *machine learning* untuk mendeteksi penyakit pada tanaman tomat:""")
+st.markdown("""Terdapat 3 jenis citra/gambar tanaman tomat yang digunakan pada aplikasi ini, yaitu penyakit hawar awal (*early blight*), penyakit daun busuk (*late blight*), dan daun tanaman sehat (*healthy*). \n\n Berikut adalah sampel dari data yang digunakan dalam membuat model *machine learning* untuk mendeteksi jenis penyakit pada tanaman tomat:""")
 st.image('./images/tomat_samples.png')
 
 st.divider()
 st.subheader("Tanaman Kentang")
-st.markdown("""Terdapat 3 *class* pada tanaman kentang, di antaranya yaitu *Early Blight*, *Late Blight*, dan *Healthy*. Berikut adalah sampel dari dataset yang digunakan dalam membuat model *machine learning* untuk mendeteksi penyakit pada tanaman tomat:""")
+st.markdown("""Terdapat 3 jenis citra/gambar tanaman kentang yang digunakan pada aplikasi ini, yaitu penyakit bercak kering (*early blight*), penyakit daun busuk (*late blight*), dan daun tanaman sehat (*healthy*). \n\n Berikut adalah sampel dari data yang digunakan dalam membuat model *machine learning* untuk mendeteksi jenis penyakit pada tanaman kentang:""")
 st.image('./images/kentang_samples.png')
 
 st.divider()
 st.subheader("Tanaman Jagung")
-st.markdown("""Terdapat 3 *class* pada tanaman kentang, di antaranya yaitu *Blight*, *Common Rust*, dan *Healthy*. Berikut adalah sampel dari dataset yang digunakan dalam membuat model *machine learning* untuk mendeteksi penyakit pada tanaman tomat:""")
+st.markdown("""Terdapat 3 jenis citra/gambar tanaman jagung yang digunakan pada aplikasi ini, yaitu penyakit hawar daun (*blight*), penyakit karat daun (*common rust*), dan daun tanaman sehat (*healthy*). \n\n Berikut adalah sampel dari data yang digunakan dalam membuat model *machine learning* untuk mendeteksi jenis penyakit pada tanaman jagung:""")
 st.image('./images/jagung_samples.png')
 
 
