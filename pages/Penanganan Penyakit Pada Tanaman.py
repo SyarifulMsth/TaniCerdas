@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("<h3 style='text-align: center; color: black;'>Informasi Penyakit atau Hama Tanaman Pertanian</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: black;'>Penanganan Penyakit Pada Tanaman</h3>", unsafe_allow_html=True)
 st.divider()
 
 # TANAMAN TOMAT
