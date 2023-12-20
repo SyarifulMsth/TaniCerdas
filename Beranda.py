@@ -20,7 +20,7 @@ with columnLeft:
     )
 
 with columnRight:
-    st.image('./images/2.jpg', width=300)
+    st.image('./images/cover_image.jpg', width=300)
     # soruce gambar
     # https://www.istockphoto.com/id/search/search-by-asset?affiliateredirect=true&assetid=1522184411&assettype=image&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffarm-with-phone&utm_medium=affiliate&utm_source=unsplash&utm_term=farm+with+phone%3A%3A%3A
     # https://www.istockphoto.com/id/search/2/image?alloweduse=availableforalluses&mediatype=photography&phrase=farm%20with%20phone&sort=best&orientations=vertical
