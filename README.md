@@ -1,2 +1,2 @@
 # TaniCerdas
-Repository which contains files and folders related to my thesis project🌱
+Repository which contains files and folders my thesis project🌱
